@@ -28,12 +28,16 @@ The Delegates Ubuntu server calculation of the redistribution to voters of the d
 ### Setup
 
 <details><summary>Install</summary>
+
 Install Delegate Ubuntu Server 
+
 ```bash
 Yarn install
 ```
+
 Choice your blockchain "infinity" or "hedge"
 Enter your network: 
+
 ```bash
 infinity
 ```
@@ -41,8 +45,10 @@ or
 ```bash
 hedge
 ```
+
 Entry your delegate phrase (wallet passphrase) as forger
 Enter your wallet delegate:
+
 ```bash
 "this is my secret passphrase"
 ```
