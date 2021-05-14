@@ -2,5 +2,5 @@
 The Delegates Ubuntu server calculation of the redistribution to voters of the delegate's incomes
 
 <p align="center">
-    <img src="/Infinitylogo.png" />
+    <img src="/banner_infi.png" />
 </p>
