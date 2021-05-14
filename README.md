@@ -1,4 +1,4 @@
-# # Delegate Ubuntu Server "DUS"
+# Delegate Ubuntu Server "DUS"
 The Delegates Ubuntu server calculation of the redistribution to voters of the delegate's incomes
 
 <p align="center">
