@@ -44,26 +44,26 @@ Install Delegate Ubuntu Server
 
 1 - install Laravel and create a project
 ```bash
-# composer create-project laravel/laravel <project name>
+composer create-project laravel/laravel <project name>
 ```
 
 2 - Update the .env file to point to you Database server.
 
 3 - Add the folowings packages :
 ```bash
-# composer require arkecosystem/crypto
-# composer require systruss/schedtransactions
+composer require arkecosystem/crypto
+composer require systruss/schedtransactions
 ```
 
 4 - Run artisan migrate to create the tables in Database.
 
 ```bash
-# php artisan migrate
+php artisan migrate
 ```
 5 - Register wallet
 
 ```bash
-# php artisan crypto:register
+php artisan crypto:register
 ```
 
 Choice your blockchain "infinity" or "hedge"
