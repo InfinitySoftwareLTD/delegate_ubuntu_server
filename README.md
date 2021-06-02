@@ -87,7 +87,7 @@ Enter your wallet delegate:
 6 - Update the ubuntu system crontab
 
 ```bash
-# php artisan crypto:cron add_cron
+php artisan crypto:cron add_cron
 ```
 
 7 - Restart cron :
@@ -98,7 +98,7 @@ Enter your wallet delegate:
 
 8 - Enable scheduler
 ```bash
-# php artisan crypto:admin enable_sched
+php artisan crypto:admin enable_sched
 ```
 
 9 - To monitor your application you can use the followings :
