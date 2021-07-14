@@ -45,7 +45,7 @@ Install Delegate Ubuntu Server
 1 - Use the download script seup-server.sh manually or clone repo.
 After that run below cmd.
 ```bash
-# chmod 755 setup-server.sh
+#chmod 755 setup-server.sh
 # ./setup-server.sh
 ```
 Note : if you hit any error when running the setup-server.sh script make sure first that there is no newline added (^M) at the end of each line in the script, run the following command to remove them if any :
