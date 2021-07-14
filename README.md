@@ -42,7 +42,7 @@ If the chosen delegate excludes the accounts which have a too low balance, the D
 
 Install Delegate Ubuntu Server 
 
-1 - Use the download script seup-server.sh manually or clone repo.
+1 - Use the download script setup-server.sh manually or clone repo.
 After that run below cmd.
 ```bash
 chmod 755 setup-server.sh
