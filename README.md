@@ -42,7 +42,7 @@ If the chosen delegate excludes the accounts which have a too low balance, the D
 
 Install Delegate Ubuntu Server 
 
-1 - Use the download script setup-server.sh clone repo in root.
+1 - Download script setup-server.sh clone the repo in root.
 ```bash
 git clone https://github.com/InfinitySoftwareLTD/delegate_ubuntu_server.git   
 ```    
