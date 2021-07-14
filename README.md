@@ -49,6 +49,7 @@ git clone https://github.com/InfinitySoftwareLTD/delegate_ubuntu_server.git
  
 After that run below cmd.
 ```bash
+cd delegate_ubuntu_server
 chmod 755 setup-server.sh
 ./setup-server.sh
 ```
