@@ -7,7 +7,7 @@ The Delegates Ubuntu server calculation of the redistribution to voters of the d
 
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
 
-> Lead Maintainer: [Infinity developers](https://github.com/Plusid)
+> Lead Maintainer: [Infinity developers](https://github.com/vickynathaiya)
 
 ## What's for?
 
