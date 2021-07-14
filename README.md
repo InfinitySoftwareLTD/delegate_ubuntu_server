@@ -42,27 +42,22 @@ If the chosen delegate excludes the accounts which have a too low balance, the D
 
 Install Delegate Ubuntu Server 
 
-1 - install Laravel and create a project
+1 - Use the download script seup-server.sh manually or clone repo.
+After that run below cmd.
 ```bash
-# composer create-project laravel/laravel <project name>
+# chmod 755 setup-server.sh
+# ./setup-server.sh
+```
+Note : if you hit any error when running the setup-server.sh script make sure first that there is no newline added (^M) at the end of each line in the script, run the following command to remove them if any :
+ ```bash
+# sed -e "s/\r//g" setup-server.sh > setup-server.sh.tmp
+# mv setup-server.sh.tmp setup-server.sh
 ```
 
-2 - Update the .env file to point to you Database server.
-
-3 - Add the folowings packages :
-```bash
-# composer require arkecosystem/crypto
-# composer require systruss/schedtransactions
-```
-
-4 - Run artisan migrate to create the tables in Database.
+2 - Register wallet
 
 ```bash
-# php artisan migrate
-```
-5 - Register wallet
-
-```bash
+# cd ~laravel/crypto
 # php artisan crypto:register
 ```
 
@@ -84,26 +79,11 @@ Enter your wallet delegate:
 "this is my secret passphrase"
 ```
 
-6 - Update the ubuntu system crontab
-
+3 - To monitor your application you can use the followings :
 ```bash
-# php artisan crypto:cron add_cron
-```
-
-7 - Restart cron :
-```bash 
-    Open a shell command in a terminal and run :
-    sudo systemctl restart cron
-```
-
-8 - Enable scheduler
-```bash
-# php artisan crypto:admin enable_sched
-```
-
-9 - To monitor your application you can use the followings :
-```bash
-    a - check scheduler logs : storage/logs/schedule_job.log
+    a - check scheduler logs :
+        # cd ~laravel/crypto 
+        # tail -f storage/logs/schedule_job.log
     b - php artisan crypto:admin show_logs
 ```
 
