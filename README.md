@@ -54,15 +54,15 @@ Run the following commands as root :
 ```
 Note : if you hit any error when running the setup-server.sh script make sure first that there is no newline added (^M) at the end of each line in the script, run the following command to remove them if any :
  ```bash
-# sed -e "s/\r//g" setup-server.sh > setup-server.sh.tmp
-# mv setup-server.sh.tmp setup-server.sh
+sed -e "s/\r//g" setup-server.sh > setup-server.sh.tmp
+mv setup-server.sh.tmp setup-server.sh
 ```
 
 2 - Register wallet
 
 ```bash
-# cd ~laravel/crypto
-# php artisan crypto:register
+cd ~laravel/crypto
+php artisan crypto:register
 ```
 
 Choice your blockchain "infinity" or "hedge"
@@ -86,8 +86,8 @@ Enter your wallet delegate:
 3 - To monitor your application you can use the followings :
 ```bash
     a - check scheduler logs :
-        # cd ~laravel/crypto 
-        # tail -f storage/logs/schedule_job.log
+        cd ~laravel/crypto 
+        tail -f storage/logs/schedule_job.log
     b - php artisan crypto:admin show_logs
 ```
 
