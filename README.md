@@ -7,7 +7,7 @@ The Delegates Ubuntu server calculation of the redistribution to voters of the d
 
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
 
-> Lead Maintainer: [Infinity developers](https://github.com/vickynathaiya)
+> Lead Maintainer: [Infinity developers](https://github.com/Plusid)
 
 ## What's for?
 
@@ -42,9 +42,13 @@ If the chosen delegate excludes the accounts which have a too low balance, the D
 
 Install Delegate Ubuntu Server 
 
-1 - Use the download script seup-server.sh manually or clone repo.
-After that run below cmd.
+1 - Use the installation script seup-server.sh that you can download from https://github.com/InfinitySoftwareLTD/delegate_ubuntu_server.git using :
 ```bash
+#wget https://raw.githubusercontent.com/InfinitySoftwareLTD/delegate_ubuntu_server/main/setup-server.sh
+```
+
+```bash
+Run the following commands as root :
 # chmod 755 setup-server.sh
 # ./setup-server.sh
 ```
