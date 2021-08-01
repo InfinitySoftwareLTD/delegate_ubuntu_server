@@ -44,7 +44,7 @@ Install Delegate Ubuntu Server
 
 1 - Use the installation script seup-server.sh that you can download from https://github.com/InfinitySoftwareLTD/delegate_ubuntu_server.git using :
 ```bash
-#wget https://raw.githubusercontent.com/InfinitySoftwareLTD/delegate_ubuntu_server/main/setup-server.sh
+# wget https://raw.githubusercontent.com/InfinitySoftwareLTD/delegate_ubuntu_server/main/setup-server.sh
 ```
 
 ```bash
