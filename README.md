@@ -44,13 +44,13 @@ Install Delegate Ubuntu Server
 
 1 - Use the installation script seup-server.sh that you can download from https://github.com/InfinitySoftwareLTD/delegate_ubuntu_server.git using :
 ```bash
-# wget https://raw.githubusercontent.com/InfinitySoftwareLTD/delegate_ubuntu_server/main/setup-server.sh
+wget https://raw.githubusercontent.com/InfinitySoftwareLTD/delegate_ubuntu_server/main/setup-server.sh
 ```
 
 ```bash
 Run the following commands as root :
-# chmod 755 setup-server.sh
-# ./setup-server.sh
+chmod 755 setup-server.sh
+./setup-server.sh
 ```
 Note : if you hit any error when running the setup-server.sh script make sure first that there is no newline added (^M) at the end of each line in the script, run the following command to remove them if any :
  ```bash
