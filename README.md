@@ -84,11 +84,16 @@ Enter your wallet delegate:
 ```
 
 3 - To monitor your application you can use the followings :
+    
+###check scheduler logs :
 ```bash
-    a - check scheduler logs :
-        cd ~laravel/crypto 
-        tail -f storage/logs/schedule_job.log
-    b - php artisan crypto:admin show_logs
+cd ~laravel/crypto 
+tail -f storage/logs/schedule_job.log
+```
+  
+###check show_logs :    
+```bash
+php artisan crypto:admin show_logs
 ```
 
 </details>
