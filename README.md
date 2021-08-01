@@ -47,8 +47,8 @@ Install Delegate Ubuntu Server
 wget https://raw.githubusercontent.com/InfinitySoftwareLTD/delegate_ubuntu_server/main/setup-server.sh
 ```
 
-```bash
 Run the following commands as root :
+```bash
 chmod 755 setup-server.sh
 ./setup-server.sh
 ```
