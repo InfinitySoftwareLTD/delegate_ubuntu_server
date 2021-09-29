@@ -97,6 +97,12 @@ cd ~laravel/crypto
 php artisan crypto:admin show_logs
 ```
 
+### Update DUS :    
+```bash
+composer update infinitysoftwareltd/library_dus
+```
+    
+    
 </details>
 
 delete_delegate/
