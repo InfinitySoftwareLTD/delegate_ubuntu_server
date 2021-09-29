@@ -99,6 +99,7 @@ php artisan crypto:admin show_logs
 
 ### Update DUS :    
 ```bash
+cd ~laravel/crypto 
 composer update infinitysoftwareltd/library_dus
 ```
     
