@@ -96,6 +96,12 @@ tail -f storage/logs/schedule_job.log
 cd ~laravel/crypto 
 php artisan crypto:admin show_logs
 ```
+ 
+### Share income delegate every 1 hour to 24 hours:    
+```bash
+cd ~laravel/crypto 
+php artisan crypto:admin change_sched
+```
 
 ### Update DUS :    
 ```bash
@@ -110,7 +116,6 @@ delete_delegate/
 delete_table/
 show_delegate/
 enable_sched/
-disable_sched/
 show_logs/
 clear_logs/
 change_sched 
