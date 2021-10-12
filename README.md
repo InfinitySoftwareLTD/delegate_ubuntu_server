@@ -51,6 +51,7 @@ Run the following commands as root :
 ```bash
 chmod 755 setup-server.sh
 ./setup-server.sh
+sudo apt-get install php-curl
 ```
 Note : if you hit any error when running the setup-server.sh script make sure first that there is no newline added (^M) at the end of each line in the script, run the following command to remove them if any :
  ```bash
@@ -103,10 +104,12 @@ cd ~laravel/crypto
 php artisan crypto:admin change_sched
 ```
 
-### Update DUS :    
+### Update DUS :       
 ```bash
 cd ~laravel/crypto 
 composer update infinitysoftwareltd/library_dus
+php artisan make:migration update_amount_type_to_cryptologs_table --table=crypto_logs
+php artisan migrate
 ```
     
     
