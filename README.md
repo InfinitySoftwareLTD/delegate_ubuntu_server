@@ -53,6 +53,11 @@ chmod 755 setup-server.sh
 sudo apt-get install php-curl
 ./setup-server.sh
 ```
+    
+```bash
+sudo apt-get install php-curl
+```
+    
 Note : if you hit any error when running the setup-server.sh script make sure first that there is no newline added (^M) at the end of each line in the script, run the following command to remove them if any :
  ```bash
 sed -e "s/\r//g" setup-server.sh > setup-server.sh.tmp
