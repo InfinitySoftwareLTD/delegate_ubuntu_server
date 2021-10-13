@@ -50,8 +50,8 @@ wget https://raw.githubusercontent.com/InfinitySoftwareLTD/delegate_ubuntu_serve
 Run the following commands as root :
 ```bash
 chmod 755 setup-server.sh
-./setup-server.sh
 sudo apt-get install php-curl
+./setup-server.sh
 ```
 Note : if you hit any error when running the setup-server.sh script make sure first that there is no newline added (^M) at the end of each line in the script, run the following command to remove them if any :
  ```bash
